@@ -1,34 +1,7 @@
-  .navbar {
-      padding-bottom: 11px;
-    }
-
-    .navbar-brand {
-      position: relative;
-      left: 20%;
-      padding-bottom: 0.1px;
-      padding-top: 0.1px;
-      background-color: #ffffff
-    }
-
-
     .carousel-indicators {
       bottom: 45px;
 
-    }
-
-    .fly-header {
-      position: relative;
-      left: 30%;
-    }
-
-    .fly-header a {
-      text-decoration: none;
-    }
-
-    .fly-header a:hover {
-      border-bottom: 3px solid #0081c9;
-      transition: border-bottom 0.1s;
-    }
+}
 
     .fly-banner img {
       width: 100%;
@@ -102,15 +75,6 @@
       font-size: 13px;
       color: #8c8c8c;
     }
-    .footer {
-      position: absolute;
-      width: 100%;
-      margin-top: 40px;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      line-height: 30px;
-      background-color: #f5f5f5;
-    }
 
     .container {
       position: relative;
@@ -118,21 +82,3 @@
 
       padding: 0 15px;
     }
-
-    .container td {
-      color: #8c8c8c;
-      padding-bottom: 1px;
-      font-size: 14px;
-    }
-
-    th {
-      color: #333333;
-      font-weight: normal;
-    }
-
-    hr {
-      margin-top: 40px;
-      border-top: 1px solid rgba(109, 108, 108, 0.11);
-    }
-
-

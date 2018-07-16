@@ -1,0 +1,53 @@
+.fly-solution {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: auto;
+}
+
+.left {
+  position: relative;
+  left: 22.5%;
+}
+
+.left-text {
+  position: relative;
+  float: left;
+  width: 25%;
+  left: 22.5%;
+  color: #666666;
+}
+
+.left img {
+  max-width: 25%;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+
+
+.right {
+  background: #f9f9f9;
+}
+
+.right-text {
+  position: relative;
+  float: right;
+  width: 22.5%;
+  right: 47.5%;
+  color: #666666;
+}
+
+.right img {
+  position: relative;
+  max-width: 25%;
+  float: right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  right: 25%;
+}
+
+h2  {
+  color: #0081c9;
+  font-size: 22px;
+}
