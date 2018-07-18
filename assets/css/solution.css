@@ -1,3 +1,4 @@
+
 .fly-solution {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -5,8 +6,6 @@
 }
 
 .left {
-  position: relative;
-  left: 22.5%;
 }
 
 .left-text {
@@ -15,15 +14,24 @@
   width: 25%;
   left: 22.5%;
   color: #666666;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 
-.left img {
+.left .shadow-img {
+  position: relative;
+  left: 22.5%;
   max-width: 25%;
   float: left;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
 
+.icon {
+  float: left;
+  padding-right: 2%;
+}
 
 
 .right {
@@ -33,12 +41,15 @@
 .right-text {
   position: relative;
   float: right;
-  width: 22.5%;
-  right: 47.5%;
+  width: 25%;
+  right: 25%;
   color: #666666;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 
-.right img {
+.right .shadow-img {
   position: relative;
   max-width: 25%;
   float: right;
@@ -50,4 +61,6 @@
 h2  {
   color: #0081c9;
   font-size: 22px;
+  padding-bottom: 2%;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
