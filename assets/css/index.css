@@ -74,11 +74,5 @@
     .card-text {
       font-size: 13px;
       color: #8c8c8c;
-    }
-
-    .container {
-      position: relative;
-      left: 5%;
-
-      padding: 0 15px;
+      font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     }
