@@ -1,29 +1,18 @@
-
-.fly-solution {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  overflow: auto;
-}
-
-.left {
-}
-
-.left-text {
-  position: relative;
-  float: left;
-  width: 25%;
-  left: 22.5%;
+.row {
+  padding-top: 2%;
   color: #666666;
   font-size: 14px;
   letter-spacing: 1px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 
-.left .shadow-img {
-  position: relative;
-  left: 22.5%;
-  max-width: 25%;
-  float: left;
+.row.right {
+  background: #f9f9f9;
+
+}
+.row .shadow-img {
+  height: 100%;
+  width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
@@ -33,30 +22,6 @@
   padding-right: 2%;
 }
 
-
-.right {
-    background: #f9f9f9;
-}
-
-.right-text {
-  position: relative;
-  float: right;
-  width: 25%;
-  right: 25%;
-  color: #666666;
-  font-size: 14px;
-  letter-spacing: 1px;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-}
-
-.right .shadow-img {
-  position: relative;
-  max-width: 25%;
-  float: right;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  right: 25%;
-}
 
 h2  {
   color: #0081c9;
