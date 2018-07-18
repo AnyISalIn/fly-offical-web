@@ -1,24 +1,14 @@
-html, body {
-  height: 100%;
-  width: 100%;
-}
-
 .fly-banner {
-  width: 100%;
-  height: 100%;
-  max-width: 1920px;
-  max-height: 669px;
   overflow: hidden;
 }
 
 
 .card-container.card {
-  position: relative;
-  float: right;
-  top: -100%;
-  right: 20%;
-  width: 26%;
-  height: 79%;
+  /* position: absolute;
+  top: 46.830000000000005px;
+  right: 384px;
+  width: 499.20000000000005px;
+  height: 535.2px; */
   background: #fff;
   padding: 40px 40px;
 }
@@ -152,6 +142,7 @@ h2  {
   text-align: center;
   font-weight: 300;
   padding-top: 2%;
+  padding-bottom: 2%;
   font-size: 22px;
 }
 
@@ -160,15 +151,15 @@ h2  {
 }
 
 .fly-notice {
-  overflow: auto;
+  overflow: hidden;
 }
 
-div.fly-notice.left > div > ul > li {
-  float: left;
-  margin:0 0 10px 0;
+.fly-notice .row .col-md-4 > ul > li {
+  /* float: left; */
+  margin:10px 0 20px 0;
 
 }
-div.fly-notice.left > div > ul {
+.fly-notice .row .col-md-4 > ul {
   padding-top: 4%;
   padding-left: 2%;
   list-style-image: url(../static/list-icon.png)
@@ -178,78 +169,23 @@ div.fly-notice.left > div > ul > span {
   float: right;
 }
 
-.right-text {
-  right: 22.5%;
-  width: 27.5%;
+.row .description-picture {
+  width: 100%;
+  height: 100%;
+
+}
+
+.row {
   font-size: 16px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  color: #333333;
+  color: #666666;
+
 }
 
-.fly-news {
-  background: #f9f9f9;
-  margin-top: 2%;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+.row h2 {
+  color: #0081c9;
 }
 
-.fly-news > .news-content {
-  overflow: auto;
-}
-
-.left-new {
-  position: relative;
-  overflow: auto;
-  max-width: 30%;
-}
-
-.left-new .news-image {
-  float: left;
-  max-width: 40%;
-}
-
-
-.left-new .news-text {
-  float: right;
-  max-width: 40%;
-}
-
-.right-new {
-  position: relative;
-  overflow: auto;
-  max-width: 30%;
-  overflow: auto;
-}
-
-.right-new .news-image {
-  float: right;
-  max-width: 55%;
-}
-
-
-.right-new .news-text {
-  float: left;
-  max-width: 45%;
-}
-
-
-.fly-news > .news-content  > div:nth-child(1) {
-  float: left;
-  left: 20%;
-}
-
-.fly-news > .news-content > div:nth-child(2) {
-  float: right;
-  right: 20%;
-}
-
-
-.fly-news > .news-content  > div:nth-child(3) {
-  float: left;
-  left: 20%;
-  clear: both;
-}
-
-.fly-news > .news-content  > div:nth-child(4) {
-  float: right;
-  right: 20%;
+.row h2 img {
+  padding-right: 2%;
 }
