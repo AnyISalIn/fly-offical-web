@@ -1,0 +1,146 @@
+body{
+    font-family: "Microsoft YaHei",sans-serif;
+
+}
+.navbar {
+    padding-bottom: 11px;
+    margin-top: 15px;
+}
+.navbar-brand {
+    position: relative;
+    left: 17%;
+    background-color: #ffffff;
+    margin-bottom: 1px;
+}
+.navbar-brand img{
+    margin-top: -10px;
+    width: 200px;
+    height: 55px;
+}
+.carousel-indicators {
+    bottom: 45px;
+}
+.fly-header {
+    position: relative;
+    left: 23%;
+}
+.fly-header a {
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    font-weight:500;
+    margin-right: 13px;
+}
+.fly-header a:hover {
+    border-bottom: 3px solid #0081c9;
+    transition: border-bottom 0.1s;
+}
+.photo{
+    margin-top: 2px;
+}
+
+
+
+
+
+
+
+
+#zhanshi1{
+     margin-top: 50px;
+     background-color: #ffffff;
+     margin-bottom: 30px;
+ }
+#zhanshi1.col-md-5{
+    margin-top: 50px;
+    padding-right: -100px;
+}
+
+#zhanshi2{
+
+    background-color:#f9f9f9 ;
+    height: 490px;
+}
+#zhanshi2 img{
+    margin-top: 1px;
+}
+.card {
+    left: 22px;
+}
+.news-title-color {
+     position: absolute;
+     top: 13px;
+     right: 18px;
+     opacity: .9;
+     filter: alpha(opacity=90)
+ }
+.news-left-color {
+    position: absolute;
+    left: 22px;
+    bottom: 22px;
+    opacity: .9;
+    filter: alpha(opacity=90);
+    float:left;
+}
+.left-word{
+    position: absolute;
+    bottom: 11px;
+    left:40px;
+    font-size: 12px;
+}
+.card-body .btn{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    opacity: .9;
+    filter: alpha(opacity=90);
+    background-color:#1db3e6;
+    box-shadow: 0px 4px 5px #c1c1c191;
+    border-Radius:0px;
+    border:none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+}
+.card p{
+    margin-top: 15px;
+    font-size: 13px;
+    margin-left: 12px;
+}
+.card-link{
+    margin-left: 12px;
+    font-size:18px;
+    color:#1db3e6 ;
+}
+.card{
+    padding-bottom: 20px;
+    width: 420px;
+    height: 170px;
+    margin-top: -25px;
+    margin-left: -25px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px #f3f3f3;
+     border-radius: 0px;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
