@@ -1,0 +1,71 @@
+  body{
+	  overflow-x:hidden
+  }
+  .navbar {
+      padding-bottom: 11px;
+    }
+
+    .navbar-brand {
+      position: relative;
+      left: 20%;
+      padding-bottom: 0.1px;
+      padding-top: 0.1px;
+      background-color: #ffffff
+    }
+
+    .fly-header {
+      position: relative;
+      left: 30%;
+    }
+
+    .fly-header a {
+      text-decoration: none;
+    }
+
+    .fly-header a:hover {
+      border-bottom: 3px solid #0081c9;
+      transition: border-bottom 0.1s;
+    }
+
+	
+	.container-common  .title{
+		margin-left:38%
+		
+		 
+	}
+	
+	.container-common  .content{
+	   margin-left:14%				 
+	}
+	
+
+   
+    .footer {
+      position: absolute;
+      width: 100%;
+      margin-top: 40px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      line-height: 30px;
+      background-color: #f5f5f5;
+    }
+	
+	.container {
+      position: relative;
+      left: 5%;
+
+      padding: 0 15px;
+    }
+
+    .container td {
+      color: #8c8c8c;
+      padding-bottom: 1px;
+      font-size: 14px;
+    }
+
+   
+
+   
+  
+
+
