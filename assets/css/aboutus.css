@@ -35,7 +35,7 @@ h2 img {
 .row .col-md .contact-us-item {
   background: #ffff;
   height: 100%;
-  margin-bottom: 10%;
+  padding-bottom: 10%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
