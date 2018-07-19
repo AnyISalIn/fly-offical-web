@@ -1,47 +1,6 @@
-body{
-    font-family: "Microsoft YaHei",sans-serif;
-
-}
-.navbar {
-    padding-bottom: 11px;
-    margin-top: 15px;
-}
-.navbar-brand {
-    position: relative;
-    left: 17%;
-    background-color: #ffffff;
-    margin-bottom: 1px;
-}
-.navbar-brand img{
-    margin-top: -10px;
-    width: 200px;
-    height: 55px;
-}
-.carousel-indicators {
-    bottom: 45px;
-}
-.fly-header {
-    position: relative;
-    left: 23%;
-}
-.fly-header a {
-    text-decoration: none;
-    font-size: 18px;
-    text-align: center;
-    padding: 5px;
-    font-weight:500;
-    margin-right: 13px;
-}
-.fly-header a:hover {
-    border-bottom: 3px solid #0081c9;
-    transition: border-bottom 0.1s;
-}
 .photo{
     margin-top: 2px;
 }
-
-
-
 
 
 
