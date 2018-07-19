@@ -15,5 +15,6 @@
 .fly-header a:hover {
   border-bottom: 4px solid #0081c9;
   transition: border-bottom 0.1s;
+  text-decoration: none;
   color: #0081c9;
 }
