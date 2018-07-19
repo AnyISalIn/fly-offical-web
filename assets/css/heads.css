@@ -1,0 +1,185 @@
+.col-md-12{
+         background-color: #000000;
+ }
+.col-md-11{
+    background-color: #2d8cff;
+}
+.head img{
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+.head .col-md-4{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.head .col-md-1 {
+    padding-right: 0px;
+    text-align: center;
+    line-height: 5rem;
+}
+.head .col-md {
+    padding-right: 0px;
+    text-align: center;
+    line-height: 5rem;
+}
+.head a{
+    text-decoration:none;
+    font-size:1.25rem ;
+    color: #000000;
+}
+.head a:hover{
+    text-decoration:none;
+    font-size:1.25rem ;
+    color: #0081c9;
+}
+.new{
+    width: 80%;
+    height: 3px;
+    margin-left: 15%;
+}
+.news{
+    background-color:#0081c9;
+    width: 80%;
+    height: 3px;
+    margin-left: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#footers {
+    margin-top: 5%;
+    text-align: center;
+    background-color:#f3f3f3;
+}
+#footers .col-md-2{
+    text-align: left;
+    margin-bottom: 20px;
+}
+#footers .title{
+    margin-top:45px;
+    font-weight: 200;
+    font-size: 20px;
+    color: #333333;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+#footers .content{
+    margin-top:22px;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+#footers .row p {
+    line-height: 26px;
+    font-size: 13px;
+    margin-bottom: 0px;
+    color: #8c8c8c;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.copyright p {
+    color: #c6c6c6;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+#footers .row .col-md-2 {
+    margin-left: 5%;
+}
+
+#footers > div > div.row > div:nth-child(5) {
+    margin-left: 0px;
+    padding-right: 0px;
+}
+
+#footers img {
+    padding: 4px;
+    background-color: #ffff;
+}
+
+
+#footers .row .col-md-2:first-child {
+    margin-left: 0px
+}
+
+#footers .qr-code {
+    width: 125px;
+    height: 125px;
+    padding-right: 0px;
+}
+
+#footers .follow {
+    text-align: center;
+    padding-top: 10%;
+}
+#footers {
+    margin-top: 5%;
+    text-align: center;
+    background-color:#f3f3f3;
+}
+#footers .col-md-2{
+    text-align: left;
+    margin-bottom: 20px;
+}
+#footers .title{
+    margin-top:45px;
+    font-weight: 200;
+    font-size: 20px;
+    color: #333333;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+#footers .content{
+    margin-top:22px;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+#footers .row p {
+    line-height: 26px;
+    font-size: 13px;
+    margin-bottom: 0px;
+    color: #8c8c8c;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.copyright p {
+    color: #c6c6c6;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+#footers .row .col-md-2 {
+    margin-left: 5%;
+}
+
+#footers > div > div.row > div:nth-child(5) {
+    margin-left: 0px;
+    padding-right: 0px;
+}
+
+#footers img {
+    padding: 4px;
+    background-color: #ffff;
+}
+
+
+#footers .row .col-md-2:first-child {
+    margin-left: 0px
+}
+
+#footers .qr-code {
+    width: 125px;
+    height: 125px;
+    padding-right: 0px;
+}
+
+#footers .follow {
+    text-align: center;
+    padding-top: 10%;
+}
