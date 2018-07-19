@@ -8,14 +8,57 @@
     margin-bottom: 20px;
 }
 #footers .title{
-     margin-top:45px;
-    font-weight:bold;
-    font-size: 15px;
+    margin-top:45px;
+    font-weight: 200;
+    font-size: 20px;
+    color: #333333;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
  }
+
 #footers .content{
     margin-top:22px;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
-#footers p{
+#footers .row p {
     line-height: 26px;
     font-size: 13px;
+    margin-bottom: 0px;
+    color: #8c8c8c;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.copyright p {
+  color: #c6c6c6;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+#footers .row .col-md-2 {
+  margin-left: 5%;
+}
+
+#footers > div > div.row > div:nth-child(5) {
+  margin-left: 0px;
+  padding-right: 0px;
+}
+
+#footers img {
+  padding: 4px;
+  background-color: #ffff;
+}
+
+
+#footers .row .col-md-2:first-child {
+  margin-left: 0px
+}
+
+#footers .qr-code {
+  width: 125px;
+  height: 125px;
+  padding-right: 0px;
+}
+
+#footers .follow {
+  text-align: center;
+  padding-top: 10%;
 }
