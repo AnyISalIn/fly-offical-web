@@ -22,6 +22,7 @@
     cursor: default;
 }
 
+
 /*
  * Card component
  */
@@ -155,13 +156,21 @@ h2  {
 }
 
 .fly-notice .row .col-md-4 > ul > li {
-  /* float: left; */
   margin:10px 0 20px 0;
 
 }
+
+.fly-notice .row .col-md-4 > ul > li a {
+  float: left;
+}
+
+.fly-notice .row .col-md-4 > ul > li span {
+  float: right;
+}
+
 .fly-notice .row .col-md-4 > ul {
   padding-top: 4%;
-  padding-left: 2%;
+  padding-left: 5%;
   list-style-image: url(../static/list-icon.png)
 }
 
@@ -187,4 +196,30 @@ div.fly-notice.left > div > ul > span {
 
 .row h2 img {
   padding-right: 2%;
+}
+
+
+.fly-news .row > div:nth-child(1) {
+  padding-right: 0px;
+}
+
+.fly-news .row > div:nth-child(2) {
+  padding-left: 0px;
+}
+
+.fly-news .row > div:nth-child(3) {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.fly-news .row > div:nth-child(4) {
+  padding-left: 0px;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
 }
