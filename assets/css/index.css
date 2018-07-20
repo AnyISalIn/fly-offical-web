@@ -97,3 +97,13 @@
   color: #8c8c8c;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
+
+
+.row.solution a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.row.solution a:hover {
+  color: #007bff;
+}
