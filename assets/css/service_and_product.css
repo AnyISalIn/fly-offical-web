@@ -7,7 +7,13 @@ h2{
 h3  
 { color: #333333;             
  font-size: 20px;
- line-height:50px;
+ line-height:35px;
+}
+h4
+{ color: #333333;             
+ font-size: 18px;
+ line-height:18px;
+ text-align: center;
 }
 .service-banner img {
     width: 100%;
@@ -20,6 +26,10 @@ h3
     font-size: 14px;
     letter-spacing: 1px;
     font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  }
+  .row p
+  {
+    text-indent: 2em;
   }
   .row.right {
     background: #f9f9f9;
@@ -56,3 +66,6 @@ h3
     color: #999999;
     font-size: 8px;
   }
+li {
+   margin-bottom: 10px;
+}
