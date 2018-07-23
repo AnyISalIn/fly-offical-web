@@ -1,51 +1,64 @@
-  body{
-	  overflow-x:hidden
-  }
-  .navbar {
-      padding-bottom: 11px;
-    }
-
-    .navbar-brand {
-      position: relative;
-      left: 20%;
-      padding-bottom: 0.1px;
-      padding-top: 0.1px;
-      background-color: #ffffff
-    }
-
-    .fly-header {
-      position: relative;
-      left: 30%;
-    }
-
-    .fly-header a {
-      text-decoration: none;
-    }
-
-    .fly-header a:hover {
-      border-bottom: 3px solid #0081c9;
-      transition: border-bottom 0.1s;
-    }
-
-	
-	.container-common  .title{
-		margin-left:38%
-		
-		 
-	}
-	
-	.container-common  .content{
-	   margin-left:19.5%				 
-	}
-
- .col-md-10{
-    background-color: #ffffff;
+body {
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
-	
 
-   
+.introduction {
+  text-indent: 2rem;
+  font-size: 14px;
 
-   
-  
+}
+h2 {
+  text-align: center;
+  font-weight: 400;
+  padding-bottom: 10px;
+  padding-top: 2%;
+  font-size: 22px;
+}
+
+h2 img {
+  padding-right: 10px;
+}
+
+.timeline {
+  background: #f9f9f9;
+}
+
+.timeline-picture {
+  width: 100%;
+}
+
+.row .col-md {
+  text-align: center;
+
+}
+
+.row .col-md .contact-us-item {
+  background: #ffff;
+  height: 100%;
+  padding-bottom: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.row .col-md .contact-us-item img {
+  margin: 10%;
+}
 
 
+#mapdiv {
+  margin-top: 3%;
+}
+
+.about-us {
+  background: #f9f9f9;
+}
+
+.partner-item {
+  background: #f9f9f9;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.partner .row {
+  padding-top: 1%;
+}

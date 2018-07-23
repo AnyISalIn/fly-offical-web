@@ -1,0 +1,54 @@
+body {
+        font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+
+}
+
+
+.navbar.navbar-expand-sm {
+    padding-bottom: 0px;
+}
+
+.head img{
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+.head .col-md{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.head .col-md {
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.head .col-md-1 {
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+    line-height: 5rem;
+}
+.head a{
+    padding-bottom: 24px;
+    text-decoration:none;
+    font-size:1.25rem ;
+    color: #000000;
+}
+.head a:hover {
+    border-bottom: 4px solid #0081c9;
+    transition: border-bottom 0.1s;
+    color: #0081c9;
+}
+.new{
+    width: 80%;
+    height: 3px;
+    margin-left: 15%;
+}
+.news{
+    background-color:#0081c9;
+    width: 80%;
+    height: 3px;
+    margin-left: 15%;
+}

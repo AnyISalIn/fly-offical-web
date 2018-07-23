@@ -27,12 +27,14 @@ h4
     letter-spacing: 1px;
     font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   }
-  .row p
+  .row.left p
   {
     text-indent: 2em;
   }
+
   .row.right {
     background: #f9f9f9;
+    text-indent: 2em;
   }
   .row .shadow-img {
     width: 100%;

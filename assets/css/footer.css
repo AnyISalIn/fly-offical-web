@@ -1,8 +1,12 @@
+body {
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
 #footers {
      margin-top: 5%;
      text-align: center;
     background-color:#f3f3f3;
- }
+}
+
 #footers .col-md-2{
     text-align: left;
     margin-bottom: 20px;
@@ -12,30 +16,40 @@
     font-weight: 200;
     font-size: 20px;
     color: #333333;
-    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    text-align: left;
  }
 
 #footers .content{
-    margin-top:22px;
-    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    margin-top: 22px;
+    text-align: left;
 }
+
+#footers a {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+#footers a:hover {
+  color: #333333;
+}
+
 #footers .row p {
     line-height: 26px;
     font-size: 13px;
     margin-bottom: 0px;
     color: #8c8c8c;
-    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 
 .copyright p {
   color: #c6c6c6;
   margin-bottom: 0px;
   padding-bottom: 10px;
-    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
-#footers .row .col-md-2 {
+
+/*#footers .row .col-md-2 {
   margin-left: 5%;
-}
+}*/
 
 #footers > div > div.row > div:nth-child(5) {
   margin-left: 0px;
