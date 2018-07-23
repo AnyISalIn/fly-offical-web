@@ -21,8 +21,16 @@ h3
     letter-spacing: 1px;
     font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   }
-  .row.right {
-    background: #f9f9f9;
+  .row.left p
+  {
+    text-indent: 2em;
+  }
+ .color
+ {
+  background: #f9f9f9;
+ }
+  .row.right p{
+    text-indent: 2em;
   }
   .row .shadow-img {
     width: 100%;
