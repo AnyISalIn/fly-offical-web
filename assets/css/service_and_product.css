@@ -7,13 +7,7 @@ h2{
 h3  
 { color: #333333;             
  font-size: 20px;
- line-height:35px;
-}
-h4
-{ color: #333333;             
- font-size: 18px;
- line-height:18px;
- text-align: center;
+ line-height:50px;
 }
 .service-banner img {
     width: 100%;
@@ -27,14 +21,8 @@ h4
     letter-spacing: 1px;
     font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   }
-  .row.left p
-  {
-    text-indent: 2em;
-  }
-
   .row.right {
     background: #f9f9f9;
-    text-indent: 2em;
   }
   .row .shadow-img {
     width: 100%;
@@ -68,6 +56,3 @@ h4
     color: #999999;
     font-size: 8px;
   }
-li {
-   margin-bottom: 10px;
-}
