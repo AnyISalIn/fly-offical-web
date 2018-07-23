@@ -31,9 +31,11 @@ h4
   {
     text-indent: 2em;
   }
-
-  .row.right {
-    background: #f9f9f9;
+ .color
+ {
+  background: #f9f9f9;
+ }
+  .row.right p{
     text-indent: 2em;
   }
   .row .shadow-img {
