@@ -12,18 +12,6 @@
 {{ super() }}
   <div class="fly-banner">
     <img src="assets/static/customer_center.jpg" alt="">
-
-    <div class="card card-container">
-      <img id="profile-img" class="profile-img-card" src="assets/static/login-icon.png" / style="width: 86px; height: 100px;">
-      <p id="profile-name" class="profile-name-card"></p>
-      <form class="form-signin">
-        <span id="reauth-email" class="reauth-email"></span>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-        <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">登 录</button>
-      </form>
-      <a href="#" class="forgot-password"> 忘记密码 </a>
-    </div>
   </div>
 
 
@@ -96,36 +84,4 @@
 
 
   </div>
-{% endblock %}
-
-{% block script %}
-{{ super() }}
-
-        <script type="text/javascript">
-            var banner = $(".fly-banner img")
-            bannerHeight = banner.height()
-            bannerWidth = banner.width()
-            headHeight = banner.position().top
-
-
-            formHeight = bannerHeight * 0.8
-            formWidth = bannerWidth * 0.26
-
-            formPositionTop = bannerHeight * 0.07
-            formPositionRight = bannerWidth * 0.2
-
-            formCss = {
-              "position": "absolute",
-              "top": formPositionTop,
-              "right": formPositionRight,
-              "width": formWidth,
-              "height": formHeight,
-              "background": "#fff",
-              "padding": "40px 40px"
-            }
-
-            form = $(".card-container.card")
-            form.css(formCss)
-
-        </script>
 {% endblock %}

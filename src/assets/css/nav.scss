@@ -1,0 +1,29 @@
+@import '_base.scss';
+
+nav.navbar {
+  margin-top: 26px;
+  margin-bottom: 14px;
+
+  .navbar-nav {
+    .nav-item {
+      padding-left: 44px;
+
+      .nav-link {
+        text-align: center;
+        color: #333;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+
+        &:hover {
+          color: $fly-blue;
+          border-bottom: 2px solid $fly-blue;
+          transition: 0.1s;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
