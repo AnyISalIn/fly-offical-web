@@ -1,0 +1,88 @@
+{% extends '_base.html' %}
+{% block head %}
+  {{ super() }}
+  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/common.css">
+  <link rel="stylesheet" href="assets/css/customer_center.css">
+  <link rel="fly icon" href="favicon.ico" type="image/x-icon"/>
+{% endblock %}
+
+
+{% block content %}
+{{ super() }}
+  <div class="fly-banner">
+    <img src="assets/static/customer_center.jpg" alt="">
+  </div>
+
+
+
+
+  <div class="container">
+  <div class="fly-notice">
+  <div class="fly-title">
+    <h2><img class="title-icon" src="assets/static/notice.png" alt="">通知公告</h2>
+  </div>
+
+
+  <div class="row">
+    <div class="col-md"><img src="assets/static/notice_background.jpg">
+    </div>
+    <div class="col-md">
+      <ul>
+        <li><a href="#">物联网+人工智能成为迈入新时代重要因</a> <span>2018-7-20</span></li>
+        <li><a href="#">物联网平台快速发展成为新热点</a>  <span>2018-7-20</span></li>
+        <li><a href="#">第41次《中国互联网络发展状况统计报告》发布...</a> <span>2018-7-20</span></li>
+        <li><a href="#">移动支付使用不断深入，互联网理财用户规模增...</a> <span>2018-7-20</span></li>
+        <li><a href="#">中国上市互联网企业超百家，市值近九万亿元</a> <span>2018-7-20</span></li>
+      </ul>
+    </div>
+  </div>
+
+  </div>
+
+
+  <div class="fly-news">
+  <div class="fly-title">
+    <h2><img class="title-icon" src="assets/static/news.png" alt="">行业新闻</h2>
+  </div>
+
+  <div class="row">
+    <div class="col-md">
+      <img class="description-picture" src="assets/static/ai.jpg" alt="">
+    </div>
+    <div class="col-md">
+      <h2><img src="assets/static/title-prefix.png" alt=""><a href="#">人工智能迈入新时代</a></h2>
+      <p>物联网被认为是继计算机、互联网之后世界信息产业发展的第三次浪潮，未来5-10年会对人类生产、生活产生深远影响，随着人工智能的蓬勃发展，物联网+人工智能的模式，让IoT开始迈入AI+IoT智联网时期... </p>
+    </div>
+    <div class="col-md">
+      <img class="description-picture"  src="assets/static/iot-hot.jpg" alt="">
+    </div>
+    <div class="col-md">
+      <h2><img src="assets/static/title-prefix.png" alt=""><a href="#">物联网平台快速发展成为新热点</a></h2>
+      <p>2017年底，湖北省最大商业卫星公司——航天科工行云科技有限公司在武汉注册成立,该公司将打造我国首个天基物联网。目前，行云公司正在实施“行云工程”，计划分三个阶段研制和发射80颗小卫星...
+</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md">
+      <h2><img src="assets/static/title-prefix.png" alt=""><a href="">区块链前景广泛，但人类还要...</a></h2>
+      <p>作为著名开源软件组织——Apache软件基金会的首任理事长以及创始人之一，Brian Behlendorf的工作成果被万维网上超过一半的网站使用，为早期的万维网打下了牢固的基础。在离开Apache软件基金，并在理事...
+</p>
+    </div>
+    <div class="col-md">
+      <img class="description-picture" src="assets/static/blockchain.jpg" alt="">
+    </div>
+    <div class="col-md">
+      <h2><img src="assets/static/title-prefix.png" alt=""><a href="">260.3亿市场规模 80个过亿安...</a></h2>
+      <p>1月4日，智慧交通网发布《2017年安防与雪亮工程市场过亿项目汇总》。根据ITS114数据统计显示，截至2017年年底，我国安防与雪亮工程市场中标过亿项目80个。中标过亿项目市场规模总计年约...
+</p>
+    </div>
+    <div class="col-md">
+      <img class="description-picture" src="assets/static/2017-sec.jpg" alt="">
+    </div>
+  </div>
+
+  </div>
+</div>
+{% endblock %}

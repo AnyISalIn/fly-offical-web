@@ -1,48 +1,24 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta charset="utf-8">
-  <title>上海飞奥信息技术服务有限公司</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/index.css">
-  <link rel="stylesheet" href="assets/css/nav.css">
-  <link rel="stylesheet" href="assets/css/solution.css">
-  <link rel="stylesheet" href="assets/css/footer.css">
+{% extends '_base.html' %}
+{% block head %}
+  {{ super() }}
   <link rel="stylesheet" href="assets/css/common.css">
+  <link rel="stylesheet" href="assets/css/solution.css">
   <link rel="fly icon" href="favicon.ico" type="image/x-icon"/>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  </script>
+{% endblock %}
 
-
-</head>
-
-<body>
- <nav class="navbar navbar-expand-sm">
-    <a class="navbar-brand offset-md-2" href="#">
-    <img src="assets/static/logo.png" width="150" height="75">
-  </a>
-  <nav class="col-md-8 offset-md-1 fly-header">
-  <a class="p-4" href="index.html">首页</a>
-  <a class="p-4" href="download.html">下载</a>
-  <a class="p-4" href="solution.html">解决方案</a>
-  <a class="p-4" href="product.html">产品和服务</a>
-  <a class="p-4" href="customer_center.html">客户中心</a>
-  <a class="p-4" href="aboutus.html">联系我们</a>
-</nav>
-  </nav>
-
+{% block content %}
+{{ super() }}
   <div class="fly-banner">
     <img src="assets/static/solution.jpg" alt="">
 
   </div>
+  <div class="container">
 
   <div class="row left">
-    <div class="col-md-4 offset-md-2">
+    <div class="col-md">
       <img class="shadow-img" src="assets/static/small_smart_industrial.jpg" alt="">
     </div>
-    <div class="col-md-4" id="smart_industrial">
+    <div class="col-md" id="smart_industrial">
         <img class="icon" src="assets/static/smart_industrial_icon.png" alt="">
         <h2>智能工业平台解决方案</h2>
         <p>
@@ -51,30 +27,26 @@
       </div>
     </div>
 
-  </div>
-
-
-  </div>
 
   <div class="row right">
-    <div class="col-md-4 offset-md-2" id="data_governance">
+    <div class="col-md" id="data_governance">
         <img class="icon" src="assets/static/data_governance_icon.png" alt="">
         <h2>数据治理解决方案</h2>
         <p>制造业企业内部的业务应用和设备一刻不停的产生和消费者数据，大多数企业领导和业务创新者早已充分意识到数据可能对其业务转型或发展的巨大意义。然而，工业数据的质量却是又脏又黑的，其主要表现在数据很脏，必须大量的算法清洗，才能有可用数据；频率不同种类又多，海量的数据但数据的容量大小不一，数据机制来自不同学科领域导致的关系复杂。从这个角度看，工业数据需要进行合理的规划和收集才能变得有价值。上海飞奥信息技术服务有限公司的数据治理方案可以帮助企业在一开始就对数据建立一套有效的收集和管理利用的方法依据和环境，从企业级视角，高效、有序、可靠的管理所有数据资产，为企业打好“大数据”的基础。
         </p>
   </div>
-    <div class="col-md-4">
+    <div class="col-md">
     <img class="shadow-img"  src="assets/static/small_data_governance.jpg" alt="">
     </div>
 
   </div>
 
   <div class="row left">
-    <div class="col-md-4 offset-md-2">
+    <div class="col-md">
     <img class="shadow-img"  src="assets/static/small_iot_data_collection.jpg" alt="">
   </div>
 
-  <div class="col-md-4" id="iot_data_collection">
+  <div class="col-md" id="iot_data_collection">
       <img class="icon" src="assets/static/iot_data_collection_icon.png" alt="">
       <h2>物联网边缘数据采集解决方案</h2>
       <p>
@@ -82,28 +54,27 @@
     </div>
   </div>
 
-  </div>
 
   <div class="row right">
-    <div class="col-md-4 offset-md-2" id="enterprise_cloud">
+    <div class="col-md" id="enterprise_cloud">
       <img class="icon" src="assets/static/enterprise_cloud_icon.png" alt="">
       <h2>企业私有云解决方案</h2>
       <p>上海飞奥信息技术服务有限公司的企业私有云解决方案提供颗粒度更细致的管理能力，无需担心各种异构环境，可覆盖全局IT资源，按需交付，以业务服务需求触发，满足应用系统需求、基础架构需求；自用户到资源，以人为本，自上而下、服务驱动；同时提供企业用户从数据存储、业务计算到信息分析全栈能力。
       </p>
 
     </div>
-    <div class="col-md-4">
+    <div class="col-md">
     <img class="shadow-img"  src="assets/static/small_enterprise_cloud.jpg" alt="">
     </div>
 
   </div>
 
   <div class="row left">
-    <div class="col-md-4 offset-md-2">
+    <div class="col-md">
     <img class="shadow-img" src="assets/static/small_enterprise_file_share.jpg" alt="">
   </div>
 
-  <div class="col-md-4" id="enterprise_file_share">
+  <div class="col-md" id="enterprise_file_share">
       <img class="icon" src="assets/static/enterprise_file_share_icon.png" alt="">
       <h2>企业文件协作解决方案</h2>
       <p>企业客户内部邮件、办公文件、周报月报、工作任务等每天产生大量的数据，这些数据散落在各个应用和介质中，企业缺少文档版本管理查看和文档使用记录的能力，员工离职带着数据走，企业面临知识财产流失。上海飞奥信息技术服务有限公司基于云计算推出企业文件协作解决方案，通过软件功能完成商业用户文档的网络存储、管理和协同，实现文档的统一管理和安全存放，同时做到便捷分享和移动协作。
@@ -111,54 +82,8 @@
     </div>
   </div>
 
-
-
-<section id="footers">
-          <div class="row">
-              <div class="col-md-2"></div>
-              <div class="col-md">
-                  <h4 class="title">专业技术咨询</h4>
-                  <p class="content">合作咨询热线 02161059498<br>
-                                     技术咨询<br>
-                                     产品咨询<br>
-                                     解决方案咨询<br>
-                                     服务咨询</p>
-              </div>
-              <div class="col-md">
-                  <h4 class="title">友情链接</h4>
-                  <p class="content"><a href="http://www.ciciot.com/" target="_blank">物联网技术开发与应用</a><br>
-                                     <a href="http://www.jszyfw.com/" target="_blank">国家技术东部转移中心</a><br>
-                                     <a href="http://www.sjtu.edu.cn/" target="_blank">上海交通大学</a><br>
-                                     <a href="http://www.njupt.edu.cn/" target="_blank">南京邮电大学</a><br>
-                                     <a href="http://www.lgimic.com/">临港科创</a>
-              </div>
-              <div class="col-md">
-                  <h4 class="title">关于我们</h4>
-                  <p class="content"><a href="customer_center.html" target="_blank">行业新闻</a><br>
-                                     <a href="https://exmail.qq.com/cgi-bin/login" taget="_blank">飞奥信息企业邮箱</a><br>
-                                     <a href="aboutus.html" target="_blank">加入我们</a><br>
-                                     <a href="aboutus.html" target="_blank">联系我们</a><br>
-              </div>
-              <div class="col-md">
-                  <div align="right" style="margin-top: 45px">
-                    <div class="qr-code">
-                    <img src="assets/static/qr_code.jpg">
-                    <div class="follow">
-                      关注我们
-                    </div>
-                    </div>
-                  </div>
-              </div>
-                <div class="col-md-2"></div>
-              <div class="copyright col-md-12">
-                  <hr />
-                  <p>Copyright © 2011-2018 上海飞奥信息技术服务有限公司 版权所有 沪ICP备17034016号</p>
-              </div>
-          </div>
-      </div>
-  </section>
+</div>
 
 
 
-
-</html>
+{% endblock %}

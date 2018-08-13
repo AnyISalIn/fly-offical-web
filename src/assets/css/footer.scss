@@ -1,0 +1,72 @@
+@import '_base.scss';
+
+#footers {
+  margin-top: 5%;
+  text-align: center;
+  background-color: #f3f3f3;
+
+  .col-md-2 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .title {
+    margin-top: 45px;
+    font-weight: 200;
+    font-size: 20px;
+    color: #333333;
+    text-align: left;
+  }
+
+  .content {
+    margin-top: 22px;
+    text-align: left;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+      color: #333333;
+    }
+  }
+
+    div > div.row > div:nth-child(5) {
+      margin-left: 0;
+      padding-right: 0;
+    }
+
+    img {
+      padding: 4px;
+      background-color: #fff;
+    }
+
+    .row .col-md-2:first-child {
+      margin-left: 0;
+    }
+
+    .qr-code {
+      width: 125px;
+      height: 125px;
+      padding-right: 0;
+    }
+
+    .follow {
+      text-align: center;
+      padding-top: 10%;
+    }
+
+  .row p {
+    line-height: 26px;
+    font-size: 13px;
+    margin-bottom: 0;
+    color: #8c8c8c;
+  }
+}
+
+.copyright p {
+  color: #c6c6c6;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}

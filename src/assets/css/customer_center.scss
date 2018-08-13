@@ -1,0 +1,93 @@
+@import '_base.scss';
+
+.fly-banner {
+  overflow: hidden;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 300;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 22px;
+
+  .title-icon {
+    padding-right: 10px;
+  }
+}
+
+.fly-notice {
+  overflow: hidden;
+
+  .row {
+    font-size: 16px;
+    color: #666666;
+
+    .description-picture {
+      width: 100%;
+    }
+
+    h2 {
+      color: #0081c9;
+
+      img {
+        padding-right: 2%;
+      }
+    }
+
+    .col-md {
+      ul {
+        padding-top: 4%;
+        padding-left: 5%;
+        list-style-image: url("../static/list-icon.png");
+
+        span {
+          float: right;
+        }
+
+        li {
+          margin: 10px 0 20px;
+
+          a {
+            float: left;
+          }
+
+          span {
+            float: right;
+          }
+        }
+      }
+    }
+  }
+}
+
+.fly-news {
+  .row {
+    div {
+      &:nth-child(1) {
+        padding-right: 0;
+      }
+
+      &:nth-child(2) {
+        padding-left: 0;
+      }
+
+      &:nth-child(3) {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      &:nth-child(4) {
+        padding-left: 0;
+      }
+    }
+  }
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}

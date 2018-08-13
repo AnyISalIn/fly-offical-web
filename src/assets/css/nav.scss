@@ -1,0 +1,26 @@
+@import '_base.scss';
+
+nav.navbar {
+
+  .navbar-nav {
+    .nav-item {
+
+      .nav-link {
+        text-align: center;
+        color: #333;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+
+        &:hover {
+          color: $fly-blue;
+          border-bottom: 2px solid $fly-blue;
+          transition: 0.1s;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
