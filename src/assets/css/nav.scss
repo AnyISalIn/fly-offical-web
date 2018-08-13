@@ -14,9 +14,9 @@ nav.navbar {
         align-items: center;
         font-size: 22px;
 
-        &:hover {
+        &.active {
           color: $fly-blue;
-          border-bottom: 2px solid $fly-blue;
+          border-bottom: 4px solid $fly-blue;
           transition: 0.1s;
           text-decoration: none;
         }
