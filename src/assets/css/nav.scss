@@ -1,17 +1,14 @@
 @import '_base.scss';
 
 nav.navbar {
-  margin-top: 26px;
-  margin-bottom: 14px;
 
   .navbar-nav {
     .nav-item {
-      padding-left: 44px;
 
       .nav-link {
         text-align: center;
         color: #333;
-        height: 60px;
+        height: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
