@@ -2,7 +2,6 @@
 {% block head %}
   {{ super() }}
   <link rel="stylesheet" href="/assets/css/index.css">
-  <link rel="stylesheet" href="/assets/css/common.css">
   <link rel="stylesheet" href="/assets/css/customer_center.css">
   <link rel="fly icon" href="favicon.ico" type="image/x-icon"/>
 {% endblock %}
@@ -30,7 +29,7 @@
     <div class="col-md">
       <ul>
         {% for article in articles %}
-        <li><a href="{{ article.link }}">{{ article.title }}</a> <span>2018-7-20</span></li>
+        <li><a href="{{ article.link }}" target="_blank">{{ article.title }}</a> <span>2018-7-20</span></li>
         {% endfor %}
       </ul>
     </div>
@@ -64,12 +63,18 @@
 {{ super() }}
 
 <script>
+
+$.ajaxSetup({
+  cache: false
+});
 $.get('http://www.ciciot.com/api/articles/?limit=10', function (msg) {
   for (idx in msg.results) {
       let obj = msg.results[idx];
       let pub_date = new Date(obj.pub_date);
-      let format_date = `${pub_date.getFullYear()}-${pub_date.getMonth() + 1}-${pub_date.getDate()}`;
-      $('.fly-news .col-md ul').eq(idx % 2).append(`<li><a target='_blank' href="http://www.ciciot.com${obj.url}">${obj.title}</a><span>${format_date}</span></li>`);
+      // fuck ie browser
+      let format_date = pub_date.getFullYear() + '-' + (pub_date.getMonth() + 1) + '-' + pub_date.getDate();
+
+      $('.fly-news .col-md ul').eq(idx % 2).append("<li><a target='_blank' href=" + "http://www.ciciot.com" + obj.url + ">" + obj.title + "</a><span>" + format_date + "</span></li>")
   }
 })
 
