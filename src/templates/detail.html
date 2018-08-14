@@ -1,0 +1,25 @@
+{% extends '_base.html' %}
+
+
+{% block head %}
+{{ super() }}
+<link rel="stylesheet" href="/assets/css/detail.css">
+{% endblock %}
+
+{% block content %}
+{{ super() }}
+<hr>
+
+<div class="container">
+  <div class="article-meta">
+    <h1>{{ article_title}}</h1>
+
+  </div>
+  <hr>
+
+  <div class="article-content">
+    {{ article_content | safe }}
+  </div>
+
+</div>
+{% endblock %}
