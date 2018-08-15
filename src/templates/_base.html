@@ -17,8 +17,6 @@
 <body>
   {% block content %} {% include '_head.html' %} {% endblock %} {% include '_footer.html' %} {% block script %}
   <script>
-    $(document).ready(
-        function() {
           function getCurrentPath(fullPath) {
             return fullPath.split('/').pop();
           };
@@ -30,19 +28,18 @@
             }
           });
 
-          $('.nav-link').hover(
-            function() {
-              if (!$(this).hasClass('active')) {
-                $('.nav-link').removeClass('active')
-                $(this).addClass('active');
-              }
-            },
-            function() {
-              $(this).removeClass('active');
-              currentActive.addClass('active');
-            })
-        }
-      )
+
+      $('.nav-link').hover(
+        function() {
+          if (!$(this).hasClass('active')) {
+            $('.nav-link').removeClass('active')
+            $(this).addClass('active');
+          }
+        },
+        function() {
+          $(this).removeClass('active');
+          currentActive.addClass('active');
+        })
   </script>
   {% endblock %}
 </body>
