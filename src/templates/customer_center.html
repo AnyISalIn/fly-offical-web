@@ -64,7 +64,7 @@
 
 <script>
 
-$.get('http://www.ciciot.com/api/articles/?limit=10', function (msg) {
+$.get('https://www.ciciot.com/api/articles/?limit=10', function (msg) {
   for (idx in msg.results) {
       let obj = msg.results[idx];
       let pub_date = new Date(obj.pub_date);
