@@ -3,7 +3,6 @@
   {% block head %}
   {{ super() }}
   <link rel="stylesheet" href="/assets/css/index.css">
-  <link rel="stylesheet" href="/assets/css/common.css">
   <link href="/assets/css/font.css" rel="stylesheet">
   <link rel="fly icon" href="favicon.ico" type="image/x-icon"/>
   <link rel="stylesheet" href="/assets/css/footer.css">
@@ -49,19 +48,19 @@
   <div class="row">
 
     <div class="col-md-8 pr-0 top">
-      <div class="fly-info">
-        <div class="fly-number">
-           36521 <span>人</span>
-           <div class="number-description">注册用户</div>
+      <div class="fly-info d-flex flex-row">
+        <div class="fly-number d-flex flex-column justify-content-center align-items-center user-info mr-auto ml-4">
+           <p>36521<span>人</span></p>
+           <span>注册用户</span>
         </div>
-        <div class="fly-number">
-           5612161 <span>个</span>
-           <div class="number-description">接入设备数</div>
+        <div class="fly-number d-flex flex-column justify-content-center align-items-center device-info mr-4">
+           <p>36521<span>人</span></p>
+           <span>注册用户</span>
         </div>
       </div>
     </div>
     <div class="col-md-4 pl-0 top">
-      <div class="fly-login">
+      <div class="fly-login d-flex justify-content-center align-items-center">
         <p><a href="http://cloud.fly-over.com.cn" target="_blank">飞云入口</a></p>
       </div>
     </div>
