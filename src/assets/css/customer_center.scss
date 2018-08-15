@@ -17,10 +17,11 @@ h2 {
 }
 
 %news {
-  .col-md {
+  .col-md-6 {
+    img {
+      width: 100%;
+    }
     ul {
-      padding-top: 4%;
-      padding-left: 5%;
       list-style-image: url("../static/list-icon.png");
 
       span {
