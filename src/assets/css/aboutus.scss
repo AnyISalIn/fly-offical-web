@@ -5,10 +5,10 @@
   color: #333333;
 }
 
-
 .bg {
   background: #f9f9f9;
 }
+
 h2 {
   text-align: center;
   font-weight: 400;
@@ -22,7 +22,6 @@ h2 img {
 }
 
 .timeline {
-
   .timeline-picture {
     width: 100%;
   }
@@ -30,7 +29,6 @@ h2 img {
 
 .row {
   .col-md {
-
     .contact-us-item {
       background: #fff;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -67,25 +65,12 @@ h2 img {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@media only screen and (max-width: 568px) {
+  .introduction {
+    padding-top: $fixed-padding;
+  }
 }
+
 
 button {
   background: transparent;
@@ -93,12 +78,8 @@ button {
   cursor: pointer;
   outline: none;
 }
-
-
-
 /* .section SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 .section {
   background: #F45B69;
   padding: 50px 0;
@@ -118,11 +99,8 @@ button {
 .section h2 {
   font-size: 1.3rem;
 }
-
-
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 .timeline {
   white-space: nowrap;
   overflow-x: hidden;
@@ -213,11 +191,8 @@ button {
   font-weight: bold;
   margin-bottom: 8px;
 }
-
-
 /* TIMELINE ARROWS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 .timeline .arrows {
   display: flex;
   justify-content: center;
@@ -229,15 +204,13 @@ button {
 }
 
 .timeline .disabled {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .timeline .arrows img {
   width: 45px;
   height: 45px;
 }
-
-
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (max-width: 599px) {
@@ -279,8 +252,8 @@ button {
     transform: none;
   }
 
-  .timeline ol li:nth-child(odd) div::before,
-  .timeline ol li:nth-child(even) div::before {
+  .timeline ol li:nth-child(even) div::before,
+  .timeline ol li:nth-child(odd) div::before {
     left: 50%;
     top: 100%;
     transform: translateX(-50%);
@@ -289,10 +262,10 @@ button {
     height: 25px;
   }
 
+  .timeline .arrows,
   .timeline ol li:last-child,
-  .timeline ol li:nth-last-child(2) div::before,
   .timeline ol li:not(:last-child)::after,
-  .timeline .arrows {
+  .timeline ol li:nth-last-child(2) div::before {
     display: none;
   }
 }

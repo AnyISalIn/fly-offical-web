@@ -1,5 +1,6 @@
 $font-stack: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 $fly-blue: #0081c9;
+$fixed-padding: 70px;
 
 
 body {
@@ -12,6 +13,7 @@ body {
 		width: 100%;
 	}
 }
+
 
 
 @media only screen and (max-width: 768px) {

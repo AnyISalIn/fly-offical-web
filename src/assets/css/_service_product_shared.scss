@@ -37,3 +37,9 @@ h3 {
   }
 
 }
+
+@media only screen and (max-width: 568px) {
+  .choice {
+    padding-top: $fixed-padding!important;
+  }
+}

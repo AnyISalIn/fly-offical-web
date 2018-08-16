@@ -42,3 +42,9 @@ h2 {
 		display: none;
 	}
 }
+
+@media only screen and (max-width: 568px) {
+  body > div:nth-child(3) > div:nth-child(1) {
+    padding-top: $fixed-padding;
+  }
+}

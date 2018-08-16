@@ -114,3 +114,10 @@ a:hover {
 }
 
 }
+
+@media only screen and (max-width: 568px) {
+  .fly-notice {
+    padding-top: $fixed-padding;
+  }
+
+}
