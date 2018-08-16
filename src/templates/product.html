@@ -2,34 +2,32 @@
 {% block head %}
 {{ super() }}
         <title>产品 - 上海飞奥信息技术服务有限公司</title>
-        <link rel="stylesheet" href="/assets/css/service_and_product.css">
+        <link rel="stylesheet" href="/assets/css/product.css">
 {% endblock %}
 
 
 {% block content %}
 {{ super() }}
-  <div class="service-banner">
+  <div class="fly-banner">
     <img src="/assets/static/service/service_banner.png" alt="">
   </div>
 
   <div class="container">
 
-  <div class="row">
-          <div class="col-md-6">
-
+  <div class="d-flex flex-row flex-md-nowrap flex-lg-nowrap flex-wrap py-4">
+          <div>
           <a href="product.html">
-            <img class="service-choice1" src="/assets/static/product/item1-1.png" alt="">
+            <img class="service-choice" src="/assets/static/product/item1-1.png" alt="">
           </a>
           </div>
-          <div class="col-md-6">
-
+          <div>
           <a href="service.html">
-            <img class="service-choice2" src="/assets/static/product/item1-2.png" alt="">
+            <img class="service-choice" src="/assets/static/product/item1-2.png" alt="">
           </a>
           </div>
       </div>
 
-  <div class="row left "style="padding-bottom: 0px">
+  <div class="row">
       <div class="col-md">
       <h2>“大数据交互平台”（FO-BDP）</h2>
       <p>随着企业信息系统发展到摩尔定律早已被打破的今天，IT建设的重心早已不再是围绕着单个系统的基础建设。各个企业动辄保有PB级别的数据，“数据是最大的金矿”早已被人们所熟知，围绕这一话题，各种技术、解决方案层出不穷。</p>
@@ -42,10 +40,10 @@
         <br/>产品架构图
     </div>
   </div>
-          <h3 align="center" style="padding-top: 10px">产品特点</h3>
+          <h3 align="center" >产品特点</h3>
 
-  <div class="row left" style="padding-top: 10px">
-    <div class="col-md-2 " style="padding-left: 0px;padding-right: 0px;">
+  <div class="row" >
+    <div class="col-md-2 " >
          <h4><img src="/assets/static/product/item1.png" alt=" " width="20px" height="19px">
             &nbsp快</h4>
             <ul>
@@ -55,7 +53,7 @@
                 <li>高效调控系统计算资源分配，轻松避免系统瓶颈和任务排队</li>
             </ul>
       </div>
-      <div class="col-md-2 offset-md-1" style="padding-left: 0px;padding-right: 0px;">
+      <div class="col-md-2 offset-md-1" >
             <h4><img src="/assets/static/product/item1.png" alt=" " width="20px" height="19px">&nbsp易</h4>
                 <ul>
                         <li>可视化流式数据集成引擎，用户直接使用SQL查询全平台异构数据源，管理员轻松实现字段级访问授权及数据安全审计
@@ -65,7 +63,7 @@
                         <li>集成数据科学家工作台，数据分析、深度挖掘思路不中断</li>
                 </ul>
           </div>
-          <div class="col-md-2 offset-md-1" style="padding-left: 0px;padding-right: 0px;">
+          <div class="col-md-2 offset-md-1" >
                 <h4><img src="/assets/static/product/item1.png" alt=" " width="20px" height="19px">&nbsp全</h4>
                     <ul>
                       	<li>功能全面，集数据治理，数据交互和数据交换于一体</li>
@@ -76,7 +74,7 @@
               </div>
    </div>
 
-  <div class="row right color">
+  <div class="row">
     <div class="col-md img_bottom_text">
       <img class="normal-img" src="/assets/static/product/SD-1.png" alt="">
        <br/>
@@ -98,7 +96,7 @@
     </div>
   </div>
 
-  <div class="row left" style="padding-bottom: 0px">
+  <div class="row" >
         <div class="col-md">
                 <h2>企业集成网关</h2>
                 <p>FO Integration Gateway系统可以帮助企业构建网络设备、主机、应用系统等资源状态监视、预警、故障分析、诊断、操作控制，实现对网络基础架构和业务应用的“集中监控，一点监控”，达到及时发现问题，辅助快速定位及解决问题的目的。设计基于SOA架构的应用集成框架、建立应用集成标准规范、搭建应用集成平台，基于集成标准实现研发、生产业务线的应用集成，打通业务与数据通路；规范待建系统的集成要求，指导待建系统实现标准化的应用集成。梳理企业综合管理类、工程业务类流程，搭建流程集成平台，逐步实现梳理成果的自动化落地，实现跨业务系统流程的贯通，实现科研生产人员，行政管理人员工作协同水平，提高整体工作效率，为领导提供统一的流程处理平台。FO Integration Gateway 系统架构上分为五层：规范层、适配器层、核心ESB层、监控平台层、数据库层；
@@ -112,7 +110,7 @@
 
   <br/>
 
-  <div class="row left" style="padding-top: 0px">
+  <div class="row" >
     <div class="col-md-8">
         <h3>常见使用场景：</h3>
         <div>
@@ -129,7 +127,7 @@
    </div>
 
 
-  <div class="row right color" style="padding-bottom: 0px">
+  <div class="row" >
      <div class="img_bottom_text col-md">
         <br/>
         <img class="normal-img" src="/assets/static/product/cloud_storage.png" alt="">
@@ -140,7 +138,7 @@
         <h2>企业云盘</h2>
         <p>
         企业客户内部邮件、办公文件、周报月报、工作任务等每天产生大量的数据，这些数据散落在各个应用和介质中，企业缺少文档版本管理查看和文档使用记录的能力，员工离职带着数据走，企业面临知识财产流失。上海飞奥信息技术服务有限公司基于云计算推出企业文件协作解决方案，通过软件功能完成商业用户文档的网络存储、管理和协同，实现文档的统一管理和安全存放，同时做到便捷分享和移动协作。
-                    <p style="text-align: left">
+                    <p >
                       <p><b>主要功能：</b>它具备强大和简单易用的文档在线编辑预览、协同办公、部门或虚拟团队之间文件共享、自动定时同步、历史资料归档、管理权限设置等丰富功能。</p>
                       <p><img src="/assets/static/product/item1.png" alt=" " width="20px" height="19px">
                           良好的性能及用户界面
@@ -179,7 +177,7 @@
         </div>
     </div>
 
-  <div class="row right color" style="padding-top: 0px">
+  <div class="row" >
       <div class="col-md-8">
           <br/>
           <h3>后端存储优势：</h3>
@@ -196,7 +194,7 @@
        </div>
    </div>
 
- <div class="row left">
+ <div class="row">
         <div class="col-md">
                 <h2>科学家平台</h2>
                 <p>我们被数据所包围，但是我们必须通过数据科学家才能将这些数据转化为有意义、有价值的东西。为了实现这一目标，数据科学团队必须 拥有正确的工具，比如，一个强大的集成式平台；同时，若要满足数据敏感性要求，该平台可能需要管理由客户控制且高度安全的环境。 科学家平台为数据科学家及其团队提供了一个协作式平台。通过容器云交付的科学家平台不仅为数据科学团队提供所需的工具，还帮助他们在企业内部部署这些工具，能帮助数据科学团队更好地完成自己的工作。
@@ -206,7 +204,7 @@
          <img class="normal-img" src="/assets/static/product/machine_learn.jpg" alt="">
         </div>
   </div>
-  <div class="row left" style="padding-top: 0px ;padding-bottom: 0px">
+  <div class="row" >
         <div class="col-md-8">
             <h3>在企业内部和云端实现一切事物的互联 </h3>
             <p>

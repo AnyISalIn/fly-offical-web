@@ -1,0 +1,39 @@
+$header-color: #333333;
+
+.service-choice {
+  width: 100%;
+}
+h2 {
+  color: $header-color;
+  font-size: 22px;
+  line-height: 50px;
+  font-weight: 500;
+}
+
+h3 {
+  color: $header-color;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.row {
+  li {
+    margin-bottom: 10px;
+  }
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #666666;
+  font-size: 14px;
+  letter-spacing: 1px;
+
+  .normal-img {
+    width: 100%;
+  }
+
+  .img_bottom_text {
+    text-align: center;
+    color: #999999;
+    font-size: 8px;
+  }
+
+}
