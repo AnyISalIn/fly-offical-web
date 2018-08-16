@@ -2,6 +2,7 @@
 {% block head %}
   {{ super() }}
   <title>客户中心 - 上海飞奥信息技术服务有限公司</title>
+  <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/index.css">
   <link rel="stylesheet" href="/assets/css/customer_center.css">
 {% endblock %}
@@ -42,6 +43,12 @@
   <div class="fly-title">
     <h2><img class="title-icon" src="/assets/static/news.png" alt="">行业新闻</h2>
   </div>
+  <div class="d-flex flex-column justify-content-center align-items-center spinner">
+  <i class="fa fa-circle-o-notch fa-spin fa-5x"></i>
+  <p>正在从 物联网技术与应用 获取最新动态</p>
+
+  </div>
+
   <div class="row">
 
   <div class="col-md-6">
@@ -63,6 +70,15 @@
 {{ super() }}
 
 <script>
+
+$.ajaxSetup({
+  beforeSend: function () {
+    $('.spinner').show();
+  },
+  complete: function () {
+    $('.spinner').removeClass('d-flex').hide();
+  }
+})
 
 $.get('https://www.ciciot.com/api/articles/?limit=10', function (msg) {
   for (idx in msg.results) {

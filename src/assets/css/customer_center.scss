@@ -21,6 +21,7 @@ h2 {
     img {
       width: 100%;
     }
+
     ul {
       list-style-image: url("../static/list-icon.png");
 
@@ -72,6 +73,16 @@ h2 {
 .fly-news {
   .row {
     @extend %news;
+  }
+
+  .spinner {
+    p {
+      color: #5c5c5c;
+    }
+    .fa {
+      color: $fly-blue
+    }
+
   }
 }
 
