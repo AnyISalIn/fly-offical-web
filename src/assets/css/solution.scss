@@ -45,6 +45,6 @@ h2 {
 
 @media only screen and (max-width: 568px) {
   body > div:nth-child(3) > div:nth-child(1) {
-    padding-top: $fixed-padding;
+    padding-top: $fixed-padding + 30px;
   }
 }
