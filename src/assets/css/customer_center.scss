@@ -93,3 +93,24 @@ a {
 a:hover {
   text-decoration: none;
 }
+
+
+@media only screen and (max-width: 768px) {
+.fly-notice,
+.fly-news {
+  li {
+    a {
+      width: 60%;
+    }
+  }
+}
+
+.fly-notice {
+  .col-md-6 {
+    img {
+      display: none;
+    }
+  }
+}
+
+}
