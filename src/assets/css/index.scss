@@ -20,10 +20,8 @@
   height: 200px;
 }
 
-
 .fly-login {
   @extend %fly-share;
-
   background: #1eb3e4;
   color: #fff;
   font-size: 38px;
@@ -40,7 +38,6 @@
   @extend %fly-share;
   background: #ffffff;
 
-
   .user-info {
     padding-left: 90px;
   }
@@ -48,6 +45,7 @@
   .device-info {
     padding-right: 124px;
   }
+
   .fly-number {
     text-align: center;
     color: #1eb3e4;
@@ -64,7 +62,6 @@
       font-size: 22px;
       color: #5c5c5c;
     }
-
   }
 }
 
@@ -104,20 +101,56 @@
     }
   }
 }
-
 @media only screen and (max-width: 992px) {
-  .fly-number {
-    font-size: 60px;
-  }
-
   .fly-info {
-  .user-info {
-    padding-left: 20px;
+    .user-info {
+      padding-left: 20px;
+    }
+
+    .fly-number {
+      font-size: 60px;
+    }
+
+    .device-info {
+      padding-right: 40px;
+    }
+  }
+}
+@media only screen and (max-width: 568px) {
+  .carousel-indicators {
+    display: none;
   }
 
-  .device-info {
-    padding-right: 40px;
+  .row {
+  .col-md-4 {
+    display: none;
+  }
+
+  .col-md-8 {
+    padding-right: 15px!important;
+    top: 0px;
   }
 }
 
+.row.solution {
+   div:nth-child(3) {
+     display: none;
+   }
+}
+
+  .fly-info {
+    height: 150px;
+
+    .user-info {
+      padding-left: 20px;
+    }
+
+    .fly-number {
+      font-size: 30px;
+    }
+
+    .device-info {
+      padding-right: 40px;
+    }
+  }
 }
